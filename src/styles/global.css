@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+@theme {
+    --font-gridlite-pe: "gridlite-pe-variable",sans-serif;
+    --font-variation-gridlite-pe: 'wght' 664, 'BACK' 3, 'RECT' 57, 'ELSH' 1;
+    --font-garamond-p-p: garamond-premier-pro, serif;
+
+  }
