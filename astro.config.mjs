@@ -13,4 +13,6 @@ export default defineConfig({
   },
 
   integrations: [react()],
+  site: "https://nina-mir.github.io",
+  base: "/poetry-workshop/",
 });
