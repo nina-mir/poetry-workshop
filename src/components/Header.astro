@@ -1,12 +1,22 @@
-<header class="h-[40vh] md:h-[30vh] bg-amber-200 flex flex-col items-center">
-  <div class="flex">
-    <h1 class="text-[3rem] font-serif">
+---
+import Banner from "./Banner.astro";
+---
+
+<header class="h-fit
+overflow-x-hidden
+flex flex-col
+max-w-full
+mb-1
+box-border">
+  <div class="flex flex-row items-stretch justify-items-stretch w-screen">
+    <h1 class="text-[2.3rem] font-serif basis-[60%] p-3">
       <span class="font-gridlite-pe">Free</span>
       <span class="font-garamond-p-p">(THE) POETRY RESIDENCY</span>
     </h1>
 
     <!-- To-DO -->
-    <div class="">" this "</div>
+    <!-- <div class="border-2 border-yellow-400 basis-[40%]">" this "</div> -->
+    <Banner />
   </div>
   <hr class="w-[30vw] text-blue-600 m-2" />
   <span class="font-serif text-2xl">
@@ -15,10 +25,4 @@
   </span>
   <hr class="w-[30vw] text-red-600 m-2" />
   <span class="font-serif text-2xl tracking-[0.31rem]"> Dec.27—31</span>
-  <em>5 days</em>
 </header>
-
-<!-- .example {
-  font-family: "gridlite-pe-variable",sans-serif;
-  font-variation-settings: 'wght' 664, 'BACK' 1, 'RECT' 57, 'ELSH' 1;
-} -->
