@@ -67,7 +67,7 @@ export interface ScheduleEvent {
         {
           start: "10:15am",
           end: "11:15am",
-          title: "Nina Craft Talk",
+          title: "Nina Craft Talk — The Mighty Struggle of Talking About Catastrophes in a post-truth, post-modern world",
         },
         {
           start: "11:15am",
@@ -149,7 +149,7 @@ export interface ScheduleEvent {
         {
           start: "10:15am",
           end: "11:15am",
-          title: "Ben Craft Talk",
+          title: "Ben Craft Talk — Somebody’s Dalmatian Perfects My Grief: On Chimeras, Confessionals, & What Poets Owe Animals",
         },
         {
           start: "11:15am",
