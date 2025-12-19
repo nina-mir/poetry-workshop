@@ -26,7 +26,7 @@ export interface ScheduleEvent {
         {
           start: "10:30am",
           end: "11:30am",
-          title: "J Craft Talk",
+          title: "J Craft Talk — Critically (Writing at School)",
         },
         {
           start: "11:30am",
